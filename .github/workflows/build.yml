@@ -1,4 +1,3 @@
-```yaml
 name: Build LocalSend Old APK
 
 on:
@@ -166,4 +165,3 @@ jobs:
           path: source/app/build/app/outputs/flutter-apk/app-debug.apk
           if-no-files-found: error
           retention-days: 7
-```
